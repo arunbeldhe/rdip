@@ -1,0 +1,119 @@
+title{
+	display: none;
+}
+body{
+	padding-left: 10px;
+}
+.two{
+	padding-left:30px;
+}
+#uni{
+	text-align:  center;
+	font-family: arial;
+}
+.inputdata input.yes{
+	margin-left: 130px;
+}
+.inputdata input.no{
+	margin-left: 60px;
+}
+.inputdata input.min{
+	margin-left: 60px;
+}
+
+.inputdata label{
+
+	position: absolute;
+}
+.pc{
+	padding-left: 30px;
+	font-family:serif;
+	font-size:20px;
+}
+
+h1{
+	padding: 10px 10px 1px 0px;
+}
+
+table ,td{
+	border:3px solid black;
+	border-spacing: 0px;
+	text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+td {
+  height: 30px;
+  font-family: arial;
+  font-weight: bold;
+}
+.bi{
+	margin: 10px 10px 10px 0px;
+	width: 120px;
+	height: 90px;
+}
+.one{
+	display: flex;
+}
+.one .four{
+	flex: 50%;
+  padding: 30px;
+
+}
+.four{
+	list-style-type: none;
+	display: flex;
+	padding:10px;
+}
+.tri{
+	font-family: serif;
+	font-size: 26px;
+	color: blue;
+	font-weight: bold;
+	padding-left: 500px;
+	text-decoration: underline;
+}
+.five{
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+  	align-items: center;
+	background-color: black;
+	color: white;
+}
+.five li, a{
+	padding:2px 5px;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+.five a{
+	color:white;
+}
+
+
+.nine{
+	float: right;
+	position: relative;
+	width: 30%;
+	height: auto;
+}
+
+.seven{
+	display: flex;
+}
+.seven .eleven{
+  flex: 50%;
+  padding: 10px;
+}
+h4{
+	padding-left: 10px;
+	font-family: serif;
+	font-size: 23px;
+}
+button a{
+	color:black;
+	
+}
