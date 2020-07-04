@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="sub.css">
+	<script type="text/javascript" src="sub.js"></script>
+</head>
+<body>
+<center><img src="https://img.icons8.com/nolan/2x/calculator.png"></center>
+<h1>BASIC CALCULATOR</h1>
+	<form name="sci-calc">
+
+<table cellspacing="0" cellpadding="1">
+<TR>
+<TD COLSPAN="5" ALIGN="center"><input NAME="display" class="sc"  SIZE="44" MAXLENGTH="25"></TD>
+</TR>
+<TR>                                  
+<td align="center"><input type="button" value="Clear" ONCLICK="this.form.display.value = 0 "></TD>
+<td align="center" colspan="2"><input type="button" value="backspace" ONCLICK="deleteChar(this.form.display)"></TD>
+<td align="center" colspan="2"><input type="button" value="        =        " NAME="Enter" ONCLICK="if (checkNum(this.form.display.value)) { compute(this.form) }"></TD>
+</TR> 
+<TR>
+<td align="center"><input type="button" value=" % " ONCLICK="addChar(this.form.display, '/100*')"></TD>
+<td align="center"><input type="button" value="  7  " ONCLICK="addChar(this.form.display, '7')"></TD>
+<td align="center"><input type="button" value="  8  " ONCLICK="addChar(this.form.display, '8')"></TD>
+<td align="center"><input type="button" value="  9  " ONCLICK="addChar(this.form.display, '9')"></TD>
+<td align="center"><input type="button" value="   /   " ONCLICK="addChar(this.form.display, '/')"></TD>
+</TR>                                  
+<TR>                                   
+<td align="center"><input type="button" value="  00   " ONCLICK="addChar(this.form.display, '00')"></TD>
+<td align="center"><input type="button" value="  4  " ONCLICK="addChar(this.form.display, '4')"></TD>
+<td align="center"><input type="button" value="  5  " ONCLICK="addChar(this.form.display, '5')"></TD>
+<td align="center"><input type="button" value="  6  " ONCLICK="addChar(this.form.display, '6')"></TD>
+<td align="center"><input type="button" value="   *   " ONCLICK="addChar(this.form.display, '*')"></TD>
+</TR>                                   
+<TR>                                    
+<td align="center"><input type="button" value=" sqrt " ONCLICK="if (checkNum(this.form.display.value)) { sqrt(this.form) }"></TD>
+<td align="center"><input type="button" value="  1  " ONCLICK="addChar(this.form.display, '1')"></TD>
+<td align="center"><input type="button" value="  2  " ONCLICK="addChar(this.form.display, '2')"></TD>
+<td align="center"><input type="button" value="  3  " ONCLICK="addChar(this.form.display, '3')"></TD>
+<td align="center"><input type="button" value="   -   " ONCLICK="addChar(this.form.display, '-')"></TD>
+</TR>                                  
+<TR>                                   
+<td align="center"><input type="button" value="  abs  " ONCLICK="if (checkNum(this.form.display.value)) { absolute(this.form) }"></TD>
+<td align="center"><input type="button" value="  0  " ONCLICK="addChar(this.form.display, '0')"></TD>
+<td align="center"><input type="button" value="   .  " ONCLICK="addChar(this.form.display, '.')"></TD>
+<td align="center"><input type="button" value=" +/- " ONCLICK="changeSign(this.form.display)"></TD>
+<td align="center"><input type="button" value="   +  " ONCLICK="addChar(this.form.display, '+')"></TD>
+</TR>  
+</table>
+<div>
+<ul>
+	<li><h3><p>In the above calculator.</p></h3></li>
+	<li><p>"abs" stands for absolute value of a number.</p></li>
+	<li><p>"sqrt" stands for square root of a number.</p></li>
+</ul>
+</div>
+</form>
+</body>
+</html>

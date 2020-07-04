@@ -1,0 +1,41 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="palin.css">
+<script type="text/javascript" src="sub.js"></script>
+<title>Palindrome using JS</title>
+<style>
+input{
+padding: 20px;
+}
+</style>
+
+</head>
+<body>
+<form action="" method="get"> &nbsp
+<h1 align='center'>Palindrome or not! </h1> 
+<p align='center'><input type="text" id="tbox" placeholder="Enter the string here" /><br><br><br>
+<input type="button" onclick="TestFunction()" value="check" id="but" /></p>
+
+</form>
+<br><br><br><br>
+<center><h1>Anagrams Check</h1></center>
+
+<form>
+	<div class="strings">
+<center><input type="text" id="string1" placeholder="Enter string 1" />
+<input type="text" id="string2" placeholder="Enter string 2" /></center><br><br>
+<center><input type="button" value="Test!" id="button-test" /></center>
+</div>
+<div id="result"></div>
+</form>
+
+
+<script type="text/javascript">
+	var button = document.getElementById('button-test');
+button.addEventListener('click', checkAnagram);
+var resultDiv = document.getElementById('result');
+</script>
+
+</body>
+</html>

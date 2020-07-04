@@ -1,0 +1,31 @@
+body{
+	background-color: lightblue;
+	font-weight: bold;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-decoration: underline;
+}
+button{
+	background-color:  black;
+}
+#button-test{
+	font-weight: bold;
+	font-size: 20px;
+}
+#but{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+#tbox{
+	border: solid black;
+}
+#string1{
+	border: solid black;
+}
+#string2{
+	border: solid black;
+}
