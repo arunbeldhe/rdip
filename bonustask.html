@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bonus Task</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body >
+<div class="container"><h1><p><b>Currency Exchange</b></p></h1><br>
+	
+	<input type="text" class="form-control" id="one" placeholder="Enter amount to be converted" ><br>
+	
+	<div class="dropdown">
+		<b>Select currency to be converted:</b>
+	<select id="input" class="jumbotron">
+		<option value="INR" selected>Indian Rupee</option>
+		<option value="USD">United States Dollar</option>
+		<option value="BRL">Brazilian real</option>
+		<option value="AUD">Australian dollar</option>
+		<option value="EGP">Egyptian pound</option>
+		<option value="JPY">Japanese Yen</option>
+		<option value="EUR">Euro</option>
+		<option value="KWD">Kuwaiti Dinar</option>
+		<option value="CAD">Canadian Dollar</option>
+		<option value="NZD">New Zealand dollar</option></select><br><br>
+		
+		<div class="dropdown">
+		<b>Select currency to which to you want to convert:</b>
+		<select id="output" class="jumbotron">
+
+		<option value="INR" selected>Indian Rupee</option>
+		<option value="USD">United States Dollar</option>
+		<option value="BRL">Brazilian real</option>
+		<option value="AUD">Australian dollar</option>
+		<option value="EGP">Egyptian pound</option>
+		<option value="JPY">Japanese Yen</option>
+		<option value="EUR">Euro</option>
+		<option value="KWD">Kuwaiti Dinar</option>
+		<option value="CAD">Canadian Dollar</option>
+		<option value="NZD">New Zealand dollar</option>
+			</select></div><br><br>
+	<input type="text" class="form-control" id="two"  disabled><br>
+	<center><button class="btn btn-primary btn-lg" onclick='exchange();'>Exchange</button></center>
+</div>
+<script src="sub.js"></script>
+</body>
+</html>
